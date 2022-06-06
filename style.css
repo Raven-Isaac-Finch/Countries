@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 header {
@@ -93,4 +93,19 @@ main {
 img {
     width: 150px;
     height: 100px;
+}
+
+@media (max-width: 820px) {
+    header h1 {
+        font-size: 1rem;
+    }
+    #search {
+        height: 1.5rem;
+        width: 250px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    #selected-country-container{
+        height: 50vh;
+    }
 }
